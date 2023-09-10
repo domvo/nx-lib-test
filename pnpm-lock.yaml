@@ -14,8 +14,17 @@ dependencies:
   react-dom:
     specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
+  tslib:
+    specifier: ^2.3.0
+    version: 2.6.2
 
 devDependencies:
+  '@babel/core':
+    specifier: ^7.14.5
+    version: 7.22.17
+  '@babel/preset-react':
+    specifier: ^7.14.5
+    version: 7.22.15(@babel/core@7.22.17)
   '@nx/eslint-plugin':
     specifier: 16.8.1
     version: 16.8.1(@swc/core@1.3.51)(@types/node@18.14.2)(@typescript-eslint/parser@5.60.1)(eslint-config-prettier@8.1.0)(eslint@8.46.0)(nx@16.8.1)(typescript@5.1.6)
